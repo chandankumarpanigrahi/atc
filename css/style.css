@@ -99,7 +99,7 @@
     font-family: 'Nunito', sans-serif;
     position: relative;
     margin-right: 25px;
-    padding: 35px 0;
+    padding: 25px 0;
     color: #FFFFFF !important;
     font-size: 18px;
     font-weight: 600;
@@ -189,7 +189,7 @@
 
 /*** Hero Header ***/
 .hero-header {
-    background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url(../img/banner.jpg);
+    background: linear-gradient(rgb(19 19 22 / 95%), rgba(20, 20, 31, .7)), url(../img/cover_img.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -285,7 +285,7 @@
 
 /*** Booking ***/
 .booking {
-    background: linear-gradient(rgba(15, 23, 43, .7), rgba(15, 23, 43, .7)), url(../img/atc_new.png);
+    background: linear-gradient(rgba(15, 23, 43, .85), rgba(15, 23, 43, .7)), url(../img/ritImg_3.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -295,12 +295,17 @@
 /*** Team ***/
 .team-item {
     box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+    border: 1px solid #e9e9e9;
 }
 
 .team-item img {
     transition: .5s;
+    height: 330px;
+    object-fit: cover;
 }
-
+.img-100{
+    width: 100%;
+}
 .team-item:hover img {
     transform: scale(1.1);
 }
@@ -457,4 +462,11 @@
     margin-right: 0;
     padding-right: 0;
     border-right: none;
+}
+
+
+.cource_card{
+    display: flex;
+    flex-direction: column;
+    height: 330px;
 }

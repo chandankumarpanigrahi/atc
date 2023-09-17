@@ -359,6 +359,12 @@ select {
     cursor: pointer
 }
 
+.cursor-pointer {
+    cursor: pointer;
+}
+.cursor-default {
+    cursor: default;
+}
 select {
     word-wrap: normal
 }
@@ -3076,14 +3082,14 @@ fieldset:disabled .btn {
 
 .btn-primary {
     color: #000;
-    background-color: #86B817;
-    border-color: #86B817
+    background-color: #9e7914;
+    border-color: #9e7914
 }
 
 .btn-primary:hover {
     color: #000;
-    background-color: #98c33a;
-    border-color: #92bf2e
+    background-color: #9e7914;
+    border-color: #9e7914
 }
 
 .btn-check:focus+.btn-primary,
