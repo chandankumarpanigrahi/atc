@@ -215,19 +215,26 @@
                             </div>
                         </p>
                         <p>
-                            <label>Your Email: <input type="email" name="email" /></label>
+                            <div class="form-floating">
+                                <input type="email" class="form-control" id="" placeholder="Your Email">
+                                <label for="email" name="email">Your Email</label>
+                            </div>
                         </p>
                         <p>
-                            <label>Your Role: <select name="role[]" multiple>
-                                    <option value="leader">Leader</option>
-                                    <option value="follower">Follower</option>
-                                </select></label>
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="" placeholder="Subject">
+                                <label for="subject" name="subject">Subject</label>
+                            </div>
                         </p>
                         <p>
-                            <label>Message: <textarea name="message"></textarea></label>
+                            <div class="form-floating">
+                                <textarea class="form-control" placeholder="Leave a message here" id=""
+                                    style="height: 100px"></textarea>
+                                <label for="message" name="message">Message</label>
+                            </div>
                         </p>
                         <p>
-                            <button type="submit">Send</button>
+                            <button class="btn btn-primary w-100 py-3" type="submit">Send</button>
                         </p>
                     </form>
                 </div>
